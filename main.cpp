@@ -1,4 +1,5 @@
 #include <Resources.hpp>
+#include "GameManager.hpp"
 
 int main() {
     Resources::load();

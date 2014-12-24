@@ -8,9 +8,13 @@ QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp \
     Resources.cpp \
-    utils.cpp
+    utils.cpp \
+    Game.cpp \
+    GameManager.cpp
 
 HEADERS += \
     Resources.hpp \
-    utils.hpp
+    utils.hpp \
+    Game.hpp \
+    GameManager.hpp
 
